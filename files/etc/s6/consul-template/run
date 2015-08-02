@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /usr/local/bin/consul-template -consul $CONSUL_HOST -config /etc/consul/template.cfg
